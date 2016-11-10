@@ -1,7 +1,7 @@
 # __OCaml Cache-Aligned Bigarray__
 
-The stock OCaml Bigarray, presumably for portability reasons, does not cache-align.  
-That is to say, it uses malloc().  At the expense of a little memory, we can 
+The stock OCaml Bigarray, presumably for portability reasons, does not cache-align.  That 
+is to say, it uses malloc().  At the expense of a little memory, we can 
 eek out a little more performance for numerical operations by cache-aligning
 the Bigarray.
 
